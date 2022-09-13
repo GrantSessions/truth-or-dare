@@ -9,7 +9,7 @@ input.onButtonPressed(Button.A, function on_button_pressed_a() {
     }
     
 })
-function b() {
+input.onButtonPressed(Button.B, function b() {
     let number = randint(0, 3)
     if (number == 0) {
         basic.showArrow(ArrowNames.North)
@@ -21,5 +21,4 @@ function b() {
         basic.showArrow(ArrowNames.West)
     }
     
-}
-
+})

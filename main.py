@@ -18,3 +18,4 @@ def b():
         basic.show_arrow(ArrowNames.EAST)
     else:
         basic.show_arrow(ArrowNames.WEST)
+input.on_button_pressed(Button.B, b)
